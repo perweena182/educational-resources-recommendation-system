@@ -1,0 +1,140 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #B2BEB5;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  background-color:#4B6F44 ;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4E6048;
+}
+button:last-child {
+  margin-right: 0; /* Remove margin-right from the last button */
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Add a wrapper div to contain each row of books */
+.book-row {
+  display: flex;
+  flex-wrap: wrap; /* Allow books to wrap to next row */
+  justify-content: center; /* Center books horizontally */
+}
+
+/* Style each book item */
+.book-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px; /* Adjust spacing between books */
+}
+
+img {
+  width: 100px;
+  height: 150px;
+  margin-bottom: 10px; /* Adjust spacing between image and text */
+}
+
+p {
+  margin: 0;
+}
+/* Add styles for the content section */
+/* Style the content section */
+.content-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style the YouTube results section */
+.youtube-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recommendations-grid> h1{
+  text-align: center;
+}
+/* Style the recommendations grid */
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width as needed */
+  gap: 10px; /* Adjust gap between grid items */
+}
+
+/* Style each recommendation item */
+.recommendation-item {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.recommendation-item img {
+  width: 70%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.recommendation-item p {
+  margin: 0;
+}
+/* Style the YouTube results section */
+.youtube-results h1{
+  text-align: center;
+}
+.videos-grid{
+  display: flex;
+  
+  justify-content: center;
+}
+
+/* Style each video item */
+.video-item {
+  width: calc(33.33% - 20px); /* Adjust width as needed */
+  margin: 30px;
+  text-align: center;
+}
+
+.video-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.video-item p {
+  margin: 0;
+}
+
+
+/* Style the search history section */
+.search-history {
+  margin-top: 0px; /* Adjust spacing from recommendations */
+}
+
